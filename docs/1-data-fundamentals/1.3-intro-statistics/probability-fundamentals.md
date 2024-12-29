@@ -11,7 +11,7 @@
 **Probability**: The likelihood of something happening. It is calculated by the formula:
 
 $$
-P(E) = \frac{\text{\# of elements in event } E}{\text{\# of elements in sample space } S}
+P(E) = \frac{\text{no. of elements in event } E}{\text{no. of elements in sample space } S}
 $$
 
 For example, the probability of rolling an even number from a six-sided die is:
@@ -26,7 +26,7 @@ $$
 - **Experimental Probability**: Derived from repeated trials of experiments, calculated by:
 
 $$
-\text{Experimental Probability} = \frac{\text{\# of times desired outcome occurred}}{\text{total \# of trials}}
+\text{Experimental Probability} = \frac{\text{no. of times desired outcome occurred}}{\text{total no. of trials}}
 $$
 
 - **Subjective Probability**: Based on intuition or personal judgment.
@@ -39,7 +39,7 @@ $$
 
 - **Venn Diagrams**: Show logical relationships between events, helping us understand probabilities.
 
-![prob_vd](./assets/prob_venn_diag.png)
+![prob_vd](./assets/prob_venn_diag.png){width=500}
 
 - **Sample Space**: Represented by a box.
 - **Events**: Represented by circles within the box.

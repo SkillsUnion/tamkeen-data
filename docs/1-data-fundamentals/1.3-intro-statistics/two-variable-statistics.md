@@ -20,7 +20,7 @@ $$
 \text{Causation} \implies \text{Correlation}
 $$
 
-![corr-vs-cause](./assets/correlation-causation.png)
+![corr-vs-cause](./assets/correlation-causation.png){width=400}
 
 ### Causation
 
