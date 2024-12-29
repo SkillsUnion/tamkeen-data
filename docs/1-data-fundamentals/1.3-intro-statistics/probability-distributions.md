@@ -2,7 +2,7 @@
 
 ## Random Variables
 
-A **random variable** is a variable whose value is determined by the outcome of an experiment that involves chance. It is denoted by capital letters (e.g., $X$).
+A **random variable** is a variable whose value is determined by the outcome of an experiment that involves chance. It is denoted by capital letters (e.g., $$X$$).
 
 ### Types of Random Variables
 
@@ -17,7 +17,7 @@ A **probability distribution** represents the probabilities of all possible outc
 
 ### Notation
 
-- $P(X = x)$: The probability that the random variable $X$ takes the specific value $x$.
+- $$P(X = x)$$: The probability that the random variable $$X$$ takes the specific value $$x$$.
 
 ### Types of Probability Distributions
 
@@ -50,7 +50,7 @@ $$
 
 ## Expected Value and Variance
 
-### Expected Value $E(X)$
+### Expected Value $$E(X)$$
 
 The expected value is the **mean** of a probability distribution, calculated as a weighted average:
 
@@ -66,13 +66,13 @@ $$
 
 ### Linearity of Expectation
 
-For any two random variables $X$ and $Y$:
+For any two random variables $$X$$ and $$Y$$:
 
 $$
 E(X + Y) = E(X) + E(Y)
 $$
 
-This holds regardless of whether $X$ and $Y$ are dependent or independent.
+This holds regardless of whether $$X$$ and $$Y$$ are dependent or independent.
 
 ### Variance $\text{Var}(X)$
 

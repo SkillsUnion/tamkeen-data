@@ -2,7 +2,7 @@
 
 A **probability distribution family** is a way to model a group of situations that show similar predictable patterns. Each distribution family has a specific set of conditions to model different types of situations.
 
-- **Outcome of interest**: The specific outcome for which we calculate the probability, usually denoted by $k$.
+- **Outcome of interest**: The specific outcome for which we calculate the probability, usually denoted by $$k$$.
 - **Parameter**: A value that connects the probability distribution to a specific situation and determines how to adjust the distribution.
 
 A **probability distribution function** is a formula that calculates the probability of an outcome based on the situation's parameters.
@@ -14,19 +14,19 @@ A **probability distribution function** is a formula that calculates the probabi
 The **binomial distribution** models the number of successes in a series of independent yes/no experiments (trials) with a constant probability of success.
 
 - **Trial**: A single independent experiment with two possible outcomes (success/failure).
-- **$n$**: Total number of trials.
-- **$p$**: Probability of success in each trial.
-- **$k$**: The number of successes we are interested in.
+- **$$n$$**: Total number of trials.
+- **$$p$$**: Probability of success in each trial.
+- **$$k$$**: The number of successes we are interested in.
 
 ### Binomial Probability Formula
 
-The probability of exactly $k$ successes in $n$ independent trials is given by:
+The probability of exactly $$k$$ successes in $$n$$ independent trials is given by:
 
 $$
 P(X = k) = \binom{n}{k} p^k (1 - p)^{n - k}
 $$
 
-where $\binom{n}{k}$ is the binomial coefficient:
+where $$\binom{n}{k}$$ is the binomial coefficient:
 
 $$
 \binom{n}{k} = \frac{n!}{k!(n - k)!}
@@ -54,11 +54,11 @@ $$
 
 The **Poisson distribution** models the probability of a given number of events occurring in a fixed interval of time or space, assuming that these events happen at a known constant average rate and independently of the time since the last event.
 
-- **$\lambda$**: The average rate of events in a given interval (also the mean of the distribution).
+- **$$\lambda$$**: The average rate of events in a given interval (also the mean of the distribution).
 
 ### Poisson Probability Formula
 
-The probability of observing $k$ events in an interval is given by:
+The probability of observing $$k$$ events in an interval is given by:
 
 $$
 P(X = k) = \frac{\lambda^k e^{-\lambda}}{k!}
@@ -89,12 +89,12 @@ $$
 
 ## Normal Distribution
 
-### Definition:
+### Definition
 
 The **normal distribution** is a continuous probability distribution that is symmetrical and bell-shaped. It is often used to model real-world phenomena such as heights, weights, and test scores.
 
-- **$\mu$**: Mean of the distribution.
-- **$\sigma$**: Standard deviation, which determines the spread of the distribution.
+- **$$\mu$$**: Mean of the distribution.
+- **$$\sigma$$**: Standard deviation, which determines the spread of the distribution.
 
 ### Probability Density Function (PDF) of Normal Distribution
 
@@ -106,9 +106,9 @@ $$
 
 ### Properties of the Normal Distribution
 
-- The curve is symmetric about the mean $\mu$.
+- The curve is symmetric about the mean $$\mu$$.
 - The total area under the curve is 1.
-- The mean $\mu$ and standard deviation $\sigma$ define the shape of the distribution.
+- The mean $$\mu$$ and standard deviation $$\sigma$$ define the shape of the distribution.
 
 ### Standard Normal Distribution
 
@@ -130,7 +130,7 @@ $$
 
 ### Z-Score
 
-A Z-score indicates how many standard deviations a specific value $X$ is from the mean:
+A Z-score indicates how many standard deviations a specific value $$X$$ is from the mean:
 
 $$
 Z = \frac{X - \mu}{\sigma}
@@ -138,7 +138,7 @@ $$
 
 ### Z-Table
 
-The **Z-table** provides cumulative probabilities for standard normal distributions. It helps in calculating the probability that a random variable will take a value less than or equal to $Z$.
+The **Z-table** provides cumulative probabilities for standard normal distributions. It helps in calculating the probability that a random variable will take a value less than or equal to $$Z$$.
 
 ![z-table](./assets/z-table.png)
 

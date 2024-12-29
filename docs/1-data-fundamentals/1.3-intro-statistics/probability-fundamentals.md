@@ -5,8 +5,8 @@
 **Experiment**: A situation involving chance, like rolling a six-sided die.
 
 - **Outcome**: The possible result of an experiment (e.g., rolling a 3).
-- **Sample Space**: All possible outcomes of an experiment, written as a set (e.g., $S = \{1, 2, 3, 4, 5, 6\}$).
-- **Event**: A collection of possible outcomes within the sample space (e.g., rolling an even number: $E = \{2, 4, 6\}$).
+- **Sample Space**: All possible outcomes of an experiment, written as a set (e.g., $$S = \{1, 2, 3, 4, 5, 6\}$$).
+- **Event**: A collection of possible outcomes within the sample space (e.g., rolling an even number: $$E = \{2, 4, 6\}$$).
 
 **Probability**: The likelihood of something happening. It is calculated by the formula:
 
@@ -43,11 +43,11 @@ $$
 
 - **Sample Space**: Represented by a box.
 - **Events**: Represented by circles within the box.
-- **Complement of an Event**: Represented by the area outside the circle (denoted as $A^C$).
-- **Intersection of Events**: Overlap of two circles, denoted as $A \cap B$.
-- **Union of Events**: Everything within the circles, denoted as $A \cup B$.
+- **Complement of an Event**: Represented by the area outside the circle (denoted as $$A^C$$).
+- **Intersection of Events**: Overlap of two circles, denoted as $$A \cap B$$.
+- **Union of Events**: Everything within the circles, denoted as $$A \cup B$$
 
-### Basic Probability Rules
+### Basic Probability Rule
 
 1. Probabilities cannot be negative.
 2. The total probability of all possible outcomes is 1 (or 100%).
@@ -83,11 +83,11 @@ $$
 P(A \cap B) = P(A|B) \times P(B)
 $$
 
-Where $P(A|B)$ is the conditional probability of $A$ given $B$.
+Where $$P(A|B)$$ is the conditional probability of $$A$$ given $$B$$.
 
 ### Conditional Probability
 
-- **Conditional Probability**: The probability of an event $A$ occurring given that $B$ has occurred, written as $P(A|B)$:
+- **Conditional Probability**: The probability of an event $$A$$ occurring given that $$B$$ has occurred, written as $$P(A|B)$$:
 
 $$
 P(A|B) = \frac{P(A \cap B)}{P(B)}
