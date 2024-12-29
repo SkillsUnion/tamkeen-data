@@ -18,8 +18,8 @@ $$
 
 Where:
 
-- $x_i$ represents each value in the dataset.
-- $n$ is the total number of values.
+- $$x_i$$ represents each value in the dataset.
+- $$n$$ is the total number of values.
 
 > Note: The mean is very sensitive to outliers.
 
@@ -50,10 +50,10 @@ $$
 
 Where:
 
-- $\sigma$ is the standard deviation.
-- $x_i$ represents each value in the dataset.
-- $\mu$ is the mean of the dataset.
-- $n$ is the total number of values.
+- $$\sigma$$ is the standard deviation.
+- $$x_i$$ represents each value in the dataset.
+- $$\mu$$ is the mean of the dataset.
+- $$n$$ is the total number of values.
 
 ### Range
 
