@@ -30,15 +30,15 @@ A **probability distribution** represents the probabilities of all possible outc
 
 - For a discrete probability distribution, the sum of all probabilities is 1:
 
-  $$
-  \sum P(X = x) = 1
-  $$
+$$
+\sum P(X = x) = 1
+$$
 
 - For a continuous probability distribution, the area under the curve is 1:
 
-  $$
-  \int_{-\infty}^{\infty} f(x) dx = 1
-  $$
+$$
+\int_{-\infty}^{\infty} f(x) dx = 1
+$$
 
 ### Weighted Average
 

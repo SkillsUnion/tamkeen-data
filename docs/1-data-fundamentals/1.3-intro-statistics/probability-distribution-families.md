@@ -36,15 +36,15 @@ $$
 
 - **Mean (Expected Value)**:
 
-  $$
-  \mu = n \cdot p
-  $$
+$$
+\mu = n \cdot p
+$$
 
 - **Variance**:
 
-  $$
-  \sigma^2 = n \cdot p \cdot (1 - p)
-  $$
+$$
+\sigma^2 = n \cdot p \cdot (1 - p)
+$$
 
 ![binomial](./assets/binomial_dist.jpg)
 

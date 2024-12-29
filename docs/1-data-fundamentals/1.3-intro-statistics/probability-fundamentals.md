@@ -25,9 +25,9 @@ $$
 - **Theoretical Probability**: Calculated based on knowledge of a situation (e.g., the outcome of a coin flip).
 - **Experimental Probability**: Derived from repeated trials of experiments, calculated by:
 
-  $$
-  \text{Experimental Probability} = \frac{\text{\# of times desired outcome occurred}}{\text{total \# of trials}}
-  $$
+$$
+\text{Experimental Probability} = \frac{\text{\# of times desired outcome occurred}}{\text{total \# of trials}}
+$$
 
 - **Subjective Probability**: Based on intuition or personal judgment.
 
@@ -59,39 +59,39 @@ $$
 
 - **Addition Rule for Disjoint Events**: For events that cannot happen simultaneously (mutually exclusive), the probability is:
 
-  $$
-  P(A \cup B) = P(A) + P(B)
-  $$
+$$
+P(A \cup B) = P(A) + P(B)
+$$
 
 - **General Addition Rule**: For events that can happen simultaneously:
 
-  $$
-  P(A \cup B) = P(A) + P(B) - P(A \cap B)
-  $$
+$$
+P(A \cup B) = P(A) + P(B) - P(A \cap B)
+$$
 
 ### The Multiplication Rule
 
 - **Multiplication Rule for Independent Events**: If two events are independent (one does not affect the other), the probability of both happening is:
 
-  $$
-  P(A \cap B) = P(A) \times P(B)
-  $$
+$$
+P(A \cap B) = P(A) \times P(B)
+$$
 
 - **General Multiplication Rule**: For dependent events (where one event affects the other), the probability is:
 
-  $$
-  P(A \cap B) = P(A|B) \times P(B)
-  $$
+$$
+P(A \cap B) = P(A|B) \times P(B)
+$$
 
-  Where $P(A|B)$ is the conditional probability of $A$ given $B$.
+Where $P(A|B)$ is the conditional probability of $A$ given $B$.
 
 ### Conditional Probability
 
 - **Conditional Probability**: The probability of an event $A$ occurring given that $B$ has occurred, written as $P(A|B)$:
 
-  $$
-  P(A|B) = \frac{P(A \cap B)}{P(B)}
-  $$
+$$
+P(A|B) = \frac{P(A \cap B)}{P(B)}
+$$
 
 ## Bayes' Rule and the Law of Total Probability
 
@@ -99,19 +99,19 @@ $$
 
 - **Bayes' Rule**: Used to update a probability based on new information:
 
-  $$
-  P(A|B) = \frac{P(B|A) \times P(A)}{P(B)}
-  $$
+$$
+P(A|B) = \frac{P(B|A) \times P(A)}{P(B)}
+$$
 
 ### Law of Total Probability (LTP)
 
 - **Law of Total Probability**: The probability of an event can be derived by splitting the sample space into partitions and summing the probabilities of each partition:
 
-  $$
-  P(A) = P(A \cap B) + P(A \cap B^C)
-  $$
+$$
+P(A) = P(A \cap B) + P(A \cap B^C)
+$$
 
-  This rule is useful for scenarios like medical testing, where the false positive rate is known.
+This rule is useful for scenarios like medical testing, where the false positive rate is known.
 
 ## Important Concepts
 

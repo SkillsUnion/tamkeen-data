@@ -9,18 +9,19 @@ Descriptive statistics is a method to quickly summarize data within a set using 
 ### Mean
 
 - Definition: The average of a set calculated by adding all the values in the set and dividing by the number of values in the set.
-- Formula:
 
-  $$
-  \text{Mean} = \frac{\sum_{i=1}^{n} x_i}{n}
-  $$
+Formula:
 
-  Where:
+$$
+\text{Mean} = \frac{\sum_{i=1}^{n} x_i}{n}
+$$
 
-  - $x_i$ represents each value in the dataset.
-  - $n$ is the total number of values.
+Where:
 
-- Note: The mean is very sensitive to outliers.
+- $x_i$ represents each value in the dataset.
+- $n$ is the total number of values.
+
+> Note: The mean is very sensitive to outliers.
 
 ### Median
 
@@ -40,18 +41,19 @@ Descriptive statistics is a method to quickly summarize data within a set using 
 
 - Definition: A measurement of the amount of variation from the mean in a data set.
 - Interpretation: For example, if a data set has a mean of 50 units and a standard deviation of 20 units, we can conclude that most of the data will fall between 30 and 70 units.
-- Formula:
 
-  $$
-  \sigma = \sqrt{\frac{\sum_{i=1}^{n} (x_i - \mu)^2}{n}}
-  $$
+Formula:
 
-  Where:
+$$
+\sigma = \sqrt{\frac{\sum_{i=1}^{n} (x_i - \mu)^2}{n}}
+$$
 
-  - $\sigma$ is the standard deviation.
-  - $x_i$ represents each value in the dataset.
-  - $\mu$ is the mean of the dataset.
-  - $n$ is the total number of values.
+Where:
+
+- $\sigma$ is the standard deviation.
+- $x_i$ represents each value in the dataset.
+- $\mu$ is the mean of the dataset.
+- $n$ is the total number of values.
 
 ### Range
 
