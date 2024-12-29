@@ -39,7 +39,7 @@ $$
 
 - **Venn Diagrams**: Show logical relationships between events, helping us understand probabilities.
 
-![prob_vd](./assets/prob_venn_diag.png){width=500}
+<img src="./assets/prob_venn_diag.png" alt="prob_vd" width="500"/>
 
 - **Sample Space**: Represented by a box.
 - **Events**: Represented by circles within the box.
