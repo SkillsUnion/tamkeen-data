@@ -22,6 +22,8 @@ $$
 
 <img src="./assets/correlation-causation.png" width="400" alt="corr-vs-cause">
 
+For example, increased ice cream sales and higher sunburn rates during summer both correlate due to sunny weather, but ice cream sales don't cause sunburns. While both variables increase together (positive correlation), the sun is the actual cause of both outcomes.
+
 ### Causation
 
 **Causation** occurs when one event directly causes another. In experiments, causation can be determined by carefully controlling variables.
