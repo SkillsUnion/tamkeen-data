@@ -1,6 +1,6 @@
 # Data Engineering Essentials
 
-This unit covers data engineering essentials. You'll learn how to build a data pipeline, orchestrate via airflow and extract-load-transform (ELT) in a data warehouse.
+This unit covers data engineering essentials. You'll learn how to build a data pipeline, orchestrate via airflow and extract-transform-load (ETL) to a data warehouse.
 
 1. **Data Pipeline Fundamentals**: Understand the basics of data pipelines and ETL processes.
 
@@ -23,15 +23,16 @@ This unit covers data engineering essentials. You'll learn how to build a data p
    - Sensors and Hooks
    - Airflow CLI and UI
 
-4. **Deploying Airflow with Astronomer**: Deploying and managing Airflow pipelines using Astronomer.
-
-   - Astronomer Platform Overview
-   - Astronomer CLI
-   - DAG Deployment
-
-5. **Data Warehouse Architecture**
+4. **Data Warehouse Architecture**
 
    - Schema Design Patterns
    - Dimensional Modeling
    - Slowly Changing Dimensions
    - Partitioning Strategies
+
+5. **Building a Local Data Pipeline with Astro CLI and SQLite**
+
+   - Introduction to Astro CLI
+   - Setting up a Local Airflow Environment
+   - Building an ETL Pipeline with SQLite
+   - Testing and Debugging Your Pipeline
