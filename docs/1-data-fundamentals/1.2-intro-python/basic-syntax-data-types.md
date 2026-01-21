@@ -103,7 +103,7 @@ myVar123 = "Hello, World!"
 
 # Invalid variable names
 123myVar = "Hello, World!" # Cannot start with a number
-my-Var = "Hello, World!" # Cannot contain special characters
+my@Var = "Hello, World!" # Cannot contain special characters
 my Var = "Hello, World!" # Cannot contain spaces
 ```
 
